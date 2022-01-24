@@ -76,7 +76,7 @@ set s=%s:\=01011100 %
 set s=%s:(=00101000 %
 set s=%s:)=00101001 %
 set s=%s:?=00111110 % 
-set s=%s::=001110 % 
+set s=%s::=00111010 % 
 echo %s% > BINARIO.txt 
 start BINARIO.txt 
 goto :in  
@@ -130,7 +130,7 @@ set s=%s:01011100 =\%
 set s=%s:00101000 =(% 
 set s=%s:00101001 =)% 
 set s=%s:00111110 =?% 
-set s=%s:001110 =:% 
+set s=%s:00111010 =:% 
 echo.> %temp%\script.cmd 
 echo @echo off >> %temp%\script.cmd 
 echo mode 91,10 >> %temp%\script.cmd 
